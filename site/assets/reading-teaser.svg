@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="460" viewBox="0 0 360 460" role="img" aria-labelledby="teaser-title teaser-desc">
+  <title id="teaser-title">GazeWorld: learning from expert reading</title>
+  <desc id="teaser-desc">A conceptual seven-by-seven patch grid with five numbered gaze positions linked in reading order. Expert gaze guides latent prediction during training, producing better representations for image-only inference. This is a conceptual diagram, not a medical image or a measured scanpath.</desc>
+  <rect width="360" height="460" rx="16" fill="#f2f0eb"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="28" y="43" fill="#20201e" font-size="27" font-weight="600" letter-spacing="-0.7">Learning from</text>
+    <text x="28" y="76" fill="#20201e" font-size="27" font-weight="600" letter-spacing="-0.7">expert reading</text>
+    <rect x="70" y="102" width="28" height="28" rx="3" fill="#dedcd6"/>
+    <rect x="102" y="102" width="28" height="28" rx="3" fill="#d6d4ce"/>
+    <rect x="134" y="102" width="28" height="28" rx="3" fill="#cbc9c2"/>
+    <rect x="166" y="102" width="28" height="28" rx="3" fill="#dad8d1"/>
+    <rect x="198" y="102" width="28" height="28" rx="3" fill="#e1dfd9"/>
+    <rect x="230" y="102" width="28" height="28" rx="3" fill="#d5d3cc"/>
+    <rect x="262" y="102" width="28" height="28" rx="3" fill="#e2e0da"/>
+    <rect x="70" y="134" width="28" height="28" rx="3" fill="#d2d0c9"/>
+    <rect x="102" y="134" width="28" height="28" rx="3" fill="#c5c3bc"/>
+    <rect x="134" y="134" width="28" height="28" rx="3" fill="#d8d6cf"/>
+    <rect x="166" y="134" width="28" height="28" rx="3" fill="#c0beb7"/>
+    <rect x="198" y="134" width="28" height="28" rx="3" fill="#ceccc4"/>
+    <rect x="230" y="134" width="28" height="28" rx="3" fill="#dedcd5"/>
+    <rect x="262" y="134" width="28" height="28" rx="3" fill="#d1cfc8"/>
+    <rect x="70" y="166" width="28" height="28" rx="3" fill="#dddbd4"/>
+    <rect x="102" y="166" width="28" height="28" rx="3" fill="#d4d2cb"/>
+    <rect x="134" y="166" width="28" height="28" rx="3" fill="#bfbbb3"/>
+    <rect x="166" y="166" width="28" height="28" rx="3" fill="#cbc7be"/>
+    <rect x="198" y="166" width="28" height="28" rx="3" fill="#d7d3ca"/>
+    <rect x="230" y="166" width="28" height="28" rx="3" fill="#c6c3bb"/>
+    <rect x="262" y="166" width="28" height="28" rx="3" fill="#dcdbd5"/>
+    <rect x="70" y="198" width="28" height="28" rx="3" fill="#e2e0db"/>
+    <rect x="102" y="198" width="28" height="28" rx="3" fill="#cecbc3"/>
+    <rect x="134" y="198" width="28" height="28" rx="3" fill="#d6d3cb"/>
+    <rect x="166" y="198" width="28" height="28" rx="3" fill="#c2bfb6"/>
+    <rect x="198" y="198" width="28" height="28" rx="3" fill="#ccc8bf"/>
+    <rect x="230" y="198" width="28" height="28" rx="3" fill="#d8d5ce"/>
+    <rect x="262" y="198" width="28" height="28" rx="3" fill="#e1dfd9"/>
+    <rect x="70" y="230" width="28" height="28" rx="3" fill="#d7d5ce"/>
+    <rect x="102" y="230" width="28" height="28" rx="3" fill="#c4c1b8"/>
+    <rect x="134" y="230" width="28" height="28" rx="3" fill="#d0cdc4"/>
+    <rect x="166" y="230" width="28" height="28" rx="3" fill="#dbd8d0"/>
+    <rect x="198" y="230" width="28" height="28" rx="3" fill="#c6c2b9"/>
+    <rect x="230" y="230" width="28" height="28" rx="3" fill="#d0cdc5"/>
+    <rect x="262" y="230" width="28" height="28" rx="3" fill="#d9d7d0"/>
+    <rect x="70" y="262" width="28" height="28" rx="3" fill="#e2e0da"/>
+    <rect x="102" y="262" width="28" height="28" rx="3" fill="#d5d2cb"/>
+    <rect x="134" y="262" width="28" height="28" rx="3" fill="#c8c5bc"/>
+    <rect x="166" y="262" width="28" height="28" rx="3" fill="#d6d3cb"/>
+    <rect x="198" y="262" width="28" height="28" rx="3" fill="#ccc9c0"/>
+    <rect x="230" y="262" width="28" height="28" rx="3" fill="#dcd9d2"/>
+    <rect x="262" y="262" width="28" height="28" rx="3" fill="#d1cec6"/>
+    <rect x="70" y="294" width="28" height="28" rx="3" fill="#dbd9d2"/>
+    <rect x="102" y="294" width="28" height="28" rx="3" fill="#e1dfd9"/>
+    <rect x="134" y="294" width="28" height="28" rx="3" fill="#d0cdc5"/>
+    <rect x="166" y="294" width="28" height="28" rx="3" fill="#dcdad3"/>
+    <rect x="198" y="294" width="28" height="28" rx="3" fill="#d5d2cb"/>
+    <rect x="230" y="294" width="28" height="28" rx="3" fill="#c7c4bc"/>
+    <rect x="262" y="294" width="28" height="28" rx="3" fill="#dedcd5"/>
+    <path d="M112 148 C133 132 159 133 180 148 S229 159 244 180 C231 205 200 228 180 244 S214 268 244 276" fill="none" stroke="#ffffff" stroke-opacity=".75" stroke-width="6" stroke-linecap="round"/>
+    <path d="M112 148 C133 132 159 133 180 148 S229 159 244 180 C231 205 200 228 180 244 S214 268 244 276" fill="none" stroke="#565750" stroke-width="1.75" stroke-linecap="round"/>
+    <g stroke="#f2f0eb" stroke-width="2">
+      <circle cx="112" cy="148" r="10" fill="#3e423e"/>
+      <circle cx="180" cy="148" r="10" fill="#3e423e"/>
+      <circle cx="244" cy="180" r="10" fill="#3e423e"/>
+      <circle cx="180" cy="244" r="10" fill="#3e423e"/>
+      <circle cx="244" cy="276" r="11" fill="#477e83"/>
+    </g>
+    <g fill="#ffffff" font-size="10" font-weight="600" text-anchor="middle" dominant-baseline="central">
+      <text x="112" y="148">1</text>
+      <text x="180" y="148">2</text>
+      <text x="244" y="180">3</text>
+      <text x="180" y="244">4</text>
+      <text x="244" y="276">5</text>
+    </g>
+    <text x="180" y="348" fill="#575952" font-size="15" text-anchor="middle">Gaze → latent prediction</text>
+    <path d="M28 367 H332" stroke="#d4d2cb" stroke-width="1"/>
+    <text x="28" y="399" fill="#20201e" font-size="23" font-weight="600" letter-spacing="-0.7">Better representations</text>
+    <path d="M307 391 H327 M321 385 L327 391 L321 397" stroke="#20201e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="28" y="427" fill="#73756d" font-size="14">Image-only inference</text>
+  </g>
+</svg>
+
