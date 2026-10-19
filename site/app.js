@@ -4,11 +4,15 @@
   const $$ = (selector) => [...document.querySelectorAll(selector)];
   const translations = {
     skip: '跳转到正文', navMethod: '方法', navResults: '实验结果', navResources: '资源',
-    eyebrow: '从专家注视，学习医学影像表征', heroTitle: '从专家视角，<br><em>理解医学影像。</em>',
+    eyebrow: '从专家视角，理解医学影像',
+    publication: '开放研究 · arXiv 2026', heroTagline: '从<em>专家的目光</em>中学习。',
+    topicVision: '医学影像', topicWorld: '世界模型', topicGaze: '专家注视',
+    researchTeam: '研究团队', architectureTitle: '走进世界模型', expandFigure: '放大查看',
+    fullComparison: '完整基准对比', scrollHint: '横向滑动查看 →', viewerIndex: '图 01 / 交互探索',
     paperTitle: 'GazeWorld：面向医学影像表征学习的放射科医生阅片世界模型',
     heroDescription: '影像即世界，注视即轨迹。<br>GazeWorld 从放射科医生探索影像的方式中学习。',
     readPaper: '阅读论文', exploreMethod: '了解方法', authorNote: '* 共同第一作者 &nbsp; † 通讯作者',
-    viewerTitle: '影像即世界', fixationStep: '注视步骤', fixationLegend: '已观察的注视点', illustrationNote: '方法交互示意',
+    viewerTitle: '影像即世界', fixationStep: '注视步骤', fixationLegend: '已观察的注视点', illustrationNote: '拖动滑块，探索注视序列',
     keyIdea: '核心思想', keyIdeaText: '学习<em>专家如何阅片</em>，理解<em>影像中的信息。</em>',
     overviewLabel: '01 / 研究概述', overviewTitle: '从关注哪里，<br><em>到预测下一步。</em>',
     overviewText: '专家的眼动记录了搜索、比较和积累证据的过程。GazeWorld 将这一过程转化为学习信号：预测下一个被注视图像块的表征，同时补全尚未探索区域的表征。',
@@ -86,6 +90,7 @@
       return task === 'scanpath' && i === 1 ? Math.min(...values) : Math.max(...values);
     });
     $('#results-table tbody').innerHTML = rows.map(row => `<tr${row.ours ? ' class="ours"' : ''}><th scope="row">${row.name}</th>${row.displayed.map((v, i) => `<td${v !== null && v === best[i] ? ' class="best"' : ''}>${v === null ? '—' : v.toFixed(task === 'scanpath' && i !== 1 ? 3 : 2)}</td>`).join('')}</tr>`).join('');
+    document.dispatchEvent(new CustomEvent('gazeworld:results'));
   }
   function activateResult(button) {
     task = button.dataset.result;

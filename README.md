@@ -183,7 +183,8 @@ python3 -m http.server 4173 --directory site
 ```
 
 Open http://localhost:4173. Edit `site/index.html`, `site/styles.css`, and `site/app.js`
-for page content, styling, and interactions; reported benchmark data is in
+for page content, styling, and interactions. Figure zoom and benchmark summaries live in
+`site/enhancements.js`; reported benchmark data is in
 `site/results-data.js`. Updates to `site/` pushed to `main` deploy automatically
 through `.github/workflows/pages.yml`. Figure attribution is recorded in
 `site/assets/ATTRIBUTION.txt`. The trajectory animation is a conceptual illustration;
