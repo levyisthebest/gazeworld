@@ -1,0 +1,19 @@
+GazeWorld paper figures
+
+Authors: Yiwei Li, Zihao Wu, Huaqin Zhao, Yifan Zhou, Chao Cao, Dajiang Zhu, Tianming Liu, and Lin Zhao.
+Paper: A World Model of Radiologist Reading for Medical Image Representation Learning
+Paper URL: https://arxiv.org/abs/2605.23992
+Version: arXiv:2605.23992v1, submitted 17 May 2026
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Changes: Original PNG files downloaded without image modification; local filenames changed.
+
+method-overview.png
+Original: Figure 1, https://arxiv.org/html/2605.23992v1/Method.png
+Suggested caption: GazeWorld learns from gaze-ordered patch representations through next-fixation prediction and spatial completion, then supports scanpath decoding and diagnostic linear probing.
+Suggested alt text: Four-part GazeWorld architecture showing image and fixation preprocessing, autoregressive next-fixation prediction, cross-attention completion of unvisited patches, and two downstream tasks.
+
+scanpath-comparison.png
+Original: Figure 3, https://arxiv.org/html/2605.23992v1/Scanpath.png
+Suggested caption: Qualitative scanpath comparison across seven pathologies: source radiographs, human gaze, GazeSearch predictions, and predictions decoded from frozen GazeWorld features.
+Suggested alt text: Seven-column radiograph grid comparing human and model scanpaths for cardiomegaly, consolidation, edema, pleural effusion, atelectasis, pneumonia, and lung opacity.

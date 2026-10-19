@@ -5,6 +5,8 @@
 Yiwei Li\*, Zihao Wu\*, Huaqin Zhao, Yifan Zhou, Chao Cao, Dajiang Zhu, Tianming Liu, Lin Zhao†
 <br>*\*Equal contribution. †Corresponding author.*
 
+🌐 Project website: [levyisthebest.github.io/gazeworld](https://levyisthebest.github.io/gazeworld/)
+
 📄 Paper: [arXiv:2605.23992](https://arxiv.org/abs/2605.23992)
 
 ---
@@ -168,3 +170,21 @@ python scripts/train_scanpath_v5medclip.py && python scripts/eval_scanpath_v5med
   year    = {2026}
 }
 ```
+
+## Project website
+
+The standalone bilingual project page lives in `site/` and is published at
+https://levyisthebest.github.io/gazeworld/ using GitHub Pages.
+
+Preview locally:
+
+```bash
+python3 -m http.server 4173 --directory site
+```
+
+Open http://localhost:4173. Edit `site/index.html`, `site/styles.css`, and `site/app.js`
+for page content, styling, and interactions; reported benchmark data is in
+`site/results-data.js`. Updates to `site/` pushed to `main` deploy automatically
+through `.github/workflows/pages.yml`. Figure attribution is recorded in
+`site/assets/ATTRIBUTION.txt`. The trajectory animation is a conceptual illustration;
+the website does not run model inference.
