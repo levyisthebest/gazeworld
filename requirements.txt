@@ -1,0 +1,16 @@
+# Core
+torch>=2.0
+torchvision>=0.15
+numpy>=1.23
+pandas>=1.5
+Pillow>=9.0
+scikit-learn>=1.2
+
+# Backbones / encoders
+timm>=0.9
+transformers>=4.30          # HuggingFace SwinModel (MedCLIP-Swin encoder)
+medclip                      # MedCLIP vision weights (world-model + scanpath MedCLIP variant)
+torchxrayvision>=1.2         # CheXNet DenseNet (scanpath "CheX" variant)
+
+# Training utils
+tqdm>=4.65

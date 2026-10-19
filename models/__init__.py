@@ -1,0 +1,1 @@
+from .fixation_ar_jepa import FixationARJEPA, build_fixation_ar_jepa
